@@ -1,0 +1,112 @@
+.list{
+	padding: 0px;
+}
+.list_element {
+	width: calc(100% - 10px);
+	padding: 5px;
+	margin: 0px;
+	display: flex;
+	border-bottom: solid 1px lightgrey;
+}
+.list_element_image, .list_element_info, .list_element_action{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.list_element_image{
+	height: 85px;
+	width: 85px;
+	border: solid 1px lightgrey;
+	border-radius: 10px;
+	margin-right: 15px;
+	flex-wrap: wrap;
+}
+.list_element_image img{
+	width: calc(50% - 1px);
+	height: calc(50% - 1px);
+}
+.list_element_description{
+	flex-grow: 1;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: center;
+}
+.list_element_description span{
+	margin: 0px;
+}
+.list_element_info{
+	width: 125px;
+	text-align: center;
+}
+.list_element_action{
+	width: 35px;
+}
+.round_button{
+	height: 25px;
+	background-Color: grey;
+	transition: background-Color 0.25s;
+}
+.round_button:hover{
+	background-color: #05418b;
+}
+.light_grey{
+	width: 35%;
+}
+.content_block_left{
+	border-width: 1px 1px 0px;
+	border-color: lightgrey;
+	border-style: solid;
+}
+#payment_buttons{
+	flex-direction: row;
+	justify-content: flex-end;
+	align-items: flex-end;
+}
+#payment_buttons .buttons{
+	border-radius: 5px;
+	margin-left: 5px;
+	height: 30px;
+}
+#Paypal{
+	background-image: url("../images/buttons/paypal.png");
+}
+#Gpay{
+	background-image: url("../images/buttons/g-pay.png");
+}
+#Paypal, #Gpay{
+	width: 140px;
+	padding: 9px 4px;
+	background-size: auto 30px;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.empty{
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+.empty img{
+	max-width: 250px;
+	height: auto;
+}
+#subscriptions{
+	padding: 0px;
+	margin-bottom: 20px;
+}
+#custom_subscriptions{
+	margin-top: 20px;
+}
+#custom_subscriptions .list_element{
+	font-size: 0.75rem;
+	background-Color: white;
+	margin: 5px 0px;
+	outline: solid 1px lightgrey;
+}
+#custom_subscriptions .list_element_image{
+	height: 60px;
+	width: 60px;
+}

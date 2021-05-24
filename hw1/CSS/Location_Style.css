@@ -1,0 +1,17 @@
+.content_block_right{
+	width: 35%;
+	margin: 0px;
+}
+.content_block_right .light_grey{
+	width: 100%;
+}
+.content_block_fill span{
+	margin: 0px 20px 0px 0px;
+}
+#map{
+	height: 350px;
+}
+.light_grey .buttons{
+	margin: 2.5px 0px;
+	width: calc(100% - 50px);
+}
